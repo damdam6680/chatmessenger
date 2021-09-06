@@ -64,4 +64,4 @@ io.on('connection', socket =>{
 
 const PORT = 80;
 
-server.listen(PORT, () => console.log(`server running ${PORT}`));
+http.listen(PORT, () => console.log(`server running ${PORT}`));
